@@ -1,9 +1,17 @@
 # photo-album
 A simple photo album 
 
-# be sure to replace your credentials in both files
+# Checks Docs [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photo-album.html)
+
+## be sure to replace your credentials in both files
 
 ## install git
+```bash
+sudo yum update 
+sudo yum install git
+git --version
+
+```
 
 ## install AWS SDK 
 ```js
