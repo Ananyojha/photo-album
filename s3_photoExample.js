@@ -1,4 +1,4 @@
-var albumBucketName = "aansh-";
+var albumBucketName = "photo-album-aansh";
 var bucketRegion = "us-east-1";
 var IdentityPoolId = "us-east-1:7b3f514c-168b-493d-9eb2-bc34f09618a0";
 
