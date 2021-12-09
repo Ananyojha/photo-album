@@ -1,6 +1,9 @@
 # photo-album
 A simple photo album 
 
+# Contents
+* [User Script](## install git)
+
 # Checks Docs [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photo-album.html)
 
 ## be sure to replace your credentials in both files
