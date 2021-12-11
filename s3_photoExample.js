@@ -2,21 +2,6 @@ var albumBucketName = "photo-album-ananay";
 var bucketRegion = "us-east-1";
 var IdentityPoolId = "us-east-1:7b3f514c-168b-493d-9eb2-bc34f09618a0";
 
-// unable Facebook Login
-FB.login(function (response) {
-
-  // Check if the user logged in successfully.
-  if (response.authResponse) {
-
-    console.log('You are now logged in.');
-
-    // Add the Facebook access token to the Amazon Cognito credentials login map.
-    AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-      IdentityPoolId: 'us-east-1:7b3f514c-168b-493d-9eb2-bc34f09618a0',
-      Logins: {
-        'graph.facebook.com': response.authResponse.accessToken
-      }
-    });
 
     // Obtain AWS credentials
     AWS.config.credentials.get(function(){
