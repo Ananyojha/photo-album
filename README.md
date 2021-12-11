@@ -37,8 +37,8 @@ yum install httpd -y
 systemctl start httpd
 systemctl enable httpd
 mv /photo-album/index.html /var/www/html/index.html
-touch /var/www/html/s3_example.js
-mv /photo-album/s3_example.js /var/www/html/s3_example.js
+touch /var/www/html/s3_photoExample.js
+mv /photo-album/s3_photoExample.js /var/www/html/s3_example.js
 ```
 
 ## Check s3 object permission
