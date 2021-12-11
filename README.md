@@ -25,7 +25,21 @@ node -- version
 npm -v
 npm install aws-sdk
 npm install uuid
+
+## User Script for EC2 
+```bash
+#!/bin/bash -e
+yum update -y
+yum install git -y
+git clone https://Ananyojha/photo-album.git
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
+mv /photo-album/index.html /var/www/html/index.html
+touch /var/www/html/s3_example.js
+mv /photo-album/s3_example.js /var/www/html/s3_example.js
 ```
+
 ## Check s3 object permission
 ```bash
 http://bucket-name.s3-website.Region.amazonaws.com/folder-name/object-name
