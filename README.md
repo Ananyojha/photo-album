@@ -26,3 +26,7 @@ npm -v
 npm install aws-sdk
 npm install uuid
 ```
+## Check s3 object permission
+```bash
+http://bucket-name.s3-website.Region.amazonaws.com/folder-name/object-name
+```
