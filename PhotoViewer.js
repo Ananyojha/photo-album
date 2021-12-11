@@ -14,7 +14,7 @@ var albumBucketName = 'photo-album-ananay';
 // Initialize the Amazon Cognito credentials provider
 AWS.config.region = 'us-east-1'; // Region
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-    IdentityPoolId: '',
+    IdentityPoolId: 'us-east-1:7b3f514c-168b-493d-9eb2-bc34f09618a0',
 });
 
 // Create a new service object
