@@ -45,3 +45,20 @@ mv /photo-album/s3_example.js /var/www/html/s3_example.js
 ```bash
 http://bucket-name.s3-website.Region.amazonaws.com/folder-name/object-name
 ```
+## Install Wordpress
+```bash
+#!/bin/bash -ex
+yum update -y
+yum install httpd -y 
+amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
+cd /var/www/html
+echo "Hi Everyone This Is Ananay" > healthy.html
+wget https://wordpress.org/latest.tar.gz
+tar -xzf latest.tar.gz
+cp -r wordpress/* /var/www/html/
+chmod -R 755 /var/www/html
+chown -R apache:apache /var/www/html
+service httpd start
+chkconfig httpd on
+
+```
