@@ -25,6 +25,7 @@ node -- version
 npm -v
 npm install aws-sdk
 npm install uuid
+```
 
 ## User Script for EC2 
 ```bash
