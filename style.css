@@ -13,7 +13,10 @@ body {
  }
 
 #main {
+    padding: 20px;
+    margin: 10px;
     background-image: linear-gradient(pink, red);
+    border-radius: 15px;
 }
 
 header {
