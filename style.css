@@ -30,7 +30,8 @@ header {
 }
 
 footer {
- font-family: 'Playfair Display', serif; 
+ font-family: 'Playfair Display', serif;
+ font-size: smaller;
 } 
 
 div {
