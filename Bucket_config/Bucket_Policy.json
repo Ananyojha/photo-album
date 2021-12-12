@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1639226001756",
+    "Statement": [
+        {
+            "Sid": "Stmt1639225994705",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::photo-album-ananay/*"
+        }
+    ]
+}
