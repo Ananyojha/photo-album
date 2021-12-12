@@ -7,7 +7,10 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:*",
-            "Resource": "arn:aws:s3:::photo-album-ananay/*"
+            "Resource": [            
+            "arn:aws:s3:::photo-album-ananay",
+            "arn:aws:s3:::photo-album-ananay/*"
+         ]
         }
     ]
 }
