@@ -6,7 +6,7 @@ font-family: 'Poppins', sans-serif;*/
 body {
   font-family: 'Playfair Display', serif;
   text-align: center;
-  background-image: linear-gradient();
+  background-image: linear-gradient(pink, red);
   border-radius: 10px;
   margin: 15px;
   padding: 15px;
