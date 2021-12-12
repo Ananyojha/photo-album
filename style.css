@@ -13,6 +13,14 @@ header {
   font-family: 'Poppins', sans-serif !important;
 }
 
+#upload, #view {
+  font-size: small; 
+}
+
+#hope {
+  font-size: smaller; 
+}
+
 footer {
  font-family: 'Playfair Display', serif; 
 } 
