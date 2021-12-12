@@ -15,7 +15,7 @@ body {
 #main {
     padding: 20px;
     margin: 10px;
-    background-image: linear-gradient(pink, red);
+    background-image: linear-gradient(#37c6e7, #9609df);
     border-radius: 15px;
 }
 
