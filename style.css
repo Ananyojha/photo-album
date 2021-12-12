@@ -45,7 +45,7 @@ footer {
 } 
 
 a {
- transition: ease-out 0.5s; 
+ transition: ease-in 0.5s; 
  text-decoration: none;
 }
 
