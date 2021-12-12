@@ -17,7 +17,7 @@ body {
     margin: 10px;
     background-image: linear-gradient(#37c6e7, #9609df);
     border-radius: 15px;
-    margin-up: 2px;
+    margin-top: 2px;
 }
 
 header {
@@ -28,7 +28,7 @@ header {
   color: white;
   display: block;
   border-radius: 10px;
-  margin-down: 2px;
+  margin-bottom: 2px;
 }
 
 #upload, #view {
