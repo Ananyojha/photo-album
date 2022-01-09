@@ -4,6 +4,11 @@ A simple photo album
 # Contents
 * [install git](#install-git)
 
+## Try out verison 3 here 
+```
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/nodegetstarted
+```
+
 # Checks Docs [here](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photo-album.html)
 
 ## be sure to replace your credentials in both files
